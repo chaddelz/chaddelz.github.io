@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS and JS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
+    <!-- font awesome -->
+
+    <title>Chad Petzer Portfolio</title>
+  </head>
+  <body class="">
+    <!-- ////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////// -->
+
+    <nav>
+      <!-- Logo -->
+      <a href="#" class="logo">CP</a>
+
+      <!-- Light Dark Theme Swapper Icon -->
+      <ul>
+        <li>
+          <a class="toggle_icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <!-- links -->
+      <ul>
+        <li>
+          <!-- linkedIn -->
+          <a href="https://www.linkedin.com/in/chad-petzer/" target="_blank">
+            <svg
+              class="nav_icon"
+              width="currentWidth"
+              height="currentHeight"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18.72 3.99997H5.37C5.19793 3.99191 5.02595 4.01786 4.86392 4.07635C4.70189 4.13484 4.55299 4.22471 4.42573 4.34081C4.29848 4.45692 4.19537 4.59699 4.12232 4.75299C4.04927 4.909 4.0077 5.07788 4 5.24997V18.63C4.01008 18.9901 4.15766 19.3328 4.41243 19.5875C4.6672 19.8423 5.00984 19.9899 5.37 20H18.72C19.0701 19.9844 19.4002 19.8322 19.6395 19.5761C19.8788 19.32 20.0082 18.9804 20 18.63V5.24997C20.0029 5.08247 19.9715 4.91616 19.9078 4.76122C19.8441 4.60629 19.7494 4.466 19.6295 4.34895C19.5097 4.23191 19.3672 4.14059 19.2108 4.08058C19.0544 4.02057 18.8874 3.99314 18.72 3.99997ZM9 17.34H6.67V10.21H9V17.34ZM7.89 9.12997C7.72741 9.13564 7.5654 9.10762 7.41416 9.04768C7.26291 8.98774 7.12569 8.89717 7.01113 8.78166C6.89656 8.66615 6.80711 8.5282 6.74841 8.37647C6.6897 8.22474 6.66301 8.06251 6.67 7.89997C6.66281 7.73567 6.69004 7.57169 6.74995 7.41854C6.80986 7.26538 6.90112 7.12644 7.01787 7.01063C7.13463 6.89481 7.2743 6.80468 7.42793 6.74602C7.58157 6.68735 7.74577 6.66145 7.91 6.66997C8.07259 6.66431 8.2346 6.69232 8.38584 6.75226C8.53709 6.8122 8.67431 6.90277 8.78887 7.01828C8.90344 7.13379 8.99289 7.27174 9.05159 7.42347C9.1103 7.5752 9.13699 7.73743 9.13 7.89997C9.13719 8.06427 9.10996 8.22825 9.05005 8.3814C8.99014 8.53456 8.89888 8.6735 8.78213 8.78931C8.66537 8.90513 8.5257 8.99526 8.37207 9.05392C8.21843 9.11259 8.05423 9.13849 7.89 9.12997ZM17.34 17.34H15V13.44C15 12.51 14.67 11.87 13.84 11.87C13.5822 11.8722 13.3313 11.9541 13.1219 12.1045C12.9124 12.2549 12.7546 12.4664 12.67 12.71C12.605 12.8926 12.5778 13.0865 12.59 13.28V17.34H10.29V10.21H12.59V11.21C12.7945 10.8343 13.0988 10.5225 13.4694 10.3089C13.84 10.0954 14.2624 9.98848 14.69 9.99997C16.2 9.99997 17.34 11 17.34 13.13V17.34Z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <!-- GitHub -->
+          <a href="https://github.com/chaddelz" target="_blank">
+            <svg
+              class="nav_icon"
+              width="currentWidth"
+              height="currentHeight"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20.9992 5.95846C21.0087 6.565 20.9333 7.32649 20.8658 7.8807C20.8395 8.09686 20.8037 8.27676 20.7653 8.42453C21.6227 10.01 22 11.9174 22 14C22 16.4684 20.8127 18.501 18.9638 19.8871C17.1319 21.2605 14.6606 22 12 22C9.33939 22 6.86809 21.2605 5.0362 19.8871C3.18727 18.501 2 16.4684 2 14C2 11.9174 2.37732 10.01 3.23472 8.42452C3.19631 8.27676 3.16055 8.09685 3.13422 7.8807C3.06673 7.32649 2.99133 6.565 3.00081 5.95846C3.01149 5.27506 3.10082 4.5917 3.19988 3.91379C3.24569 3.60028 3.31843 3.30547 3.65883 3.11917C4.00655 2.92886 4.37274 2.99981 4.73398 3.1021C5.95247 3.44713 7.09487 3.93108 8.16803 4.51287C9.2995 4.17287 10.5783 4 12 4C13.4217 4 14.7005 4.17287 15.832 4.51287C16.9051 3.93108 18.0475 3.44713 19.266 3.1021C19.6273 2.99981 19.9935 2.92886 20.3412 3.11917C20.6816 3.30547 20.7543 3.60028 20.8001 3.91379C20.8992 4.5917 20.9885 5.27506 20.9992 5.95846ZM20 14C20 12.3128 19.6122 10 17.5 10C16.5478 10 15.6474 10.2502 14.7474 10.5004C13.8482 10.7502 12.9495 11 12 11C11.0505 11 10.1518 10.7502 9.25263 10.5004C8.35261 10.2502 7.45216 10 6.5 10C4.39379 10 4 12.3197 4 14C4 15.7636 4.82745 17.231 6.23588 18.2869C7.66135 19.3556 9.69005 20 12 20C14.3099 20 16.3386 19.3555 17.7641 18.2869C19.1726 17.231 20 15.7636 20 14ZM10 14.5C10 15.8807 9.32843 17 8.5 17C7.67157 17 7 15.8807 7 14.5C7 13.1193 7.67157 12 8.5 12C9.32843 12 10 13.1193 10 14.5ZM15.5 17C16.3284 17 17 15.8807 17 14.5C17 13.1193 16.3284 12 15.5 12C14.6716 12 14 13.1193 14 14.5C14 15.8807 14.6716 17 15.5 17Z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </li>
+
+        <!-- resume icon -->
+
+        <!-- <li>
+          
+          <a href="#">
+            <svg
+              class="nav_icon"
+              width="currentWidth"
+              height="currentHeight"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+            >
+              <path
+                d="M276.239,252.183c-6.37,2.127-13.165,3.308-20.239,3.308c-7.074,0-13.87-1.181-20.24-3.308
+       c-46.272,7.599-70.489,41.608-70.489,82.877H256h90.728C346.728,293.791,322.515,259.782,276.239,252.183z"
+              />
+              <path
+                d="M256,240.788c27.43,0,49.658-22.24,49.658-49.666v-14.087c0-27.426-22.228-49.659-49.658-49.659
+       c-27.43,0-49.658,22.233-49.658,49.659v14.087C206.342,218.548,228.57,240.788,256,240.788z"
+              />
+              <path
+                d="M378.4,0H133.582C86.234,0,47.7,38.542,47.7,85.899v340.22C47.7,473.476,86.234,512,133.582,512h205.695
+       h13.175l9.318-9.301l93.229-93.229l9.301-9.31v-13.174V85.899C464.3,38.542,425.766,0,378.4,0z M432.497,386.985H384.35
+       c-24.882,0-45.074,20.183-45.074,45.073v48.139H133.582c-29.866,0-54.078-24.221-54.078-54.078V85.899
+       c0-29.874,24.212-54.096,54.078-54.096H378.4c29.876,0,54.096,24.222,54.096,54.096V386.985z"
+              />
+            </svg>
+          </a>
+        </li>  -->
+      </ul>
+    </nav>
+
+    <!-- ////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////// -->
+
+    <!-- section 1 - Home Page -->
+    <section class="sec1">
+      <header>
+        <div class="header_text">
+          <svg
+            id="chadPetzer_text"
+            width="1101"
+            height="100"
+            viewBox="0 0 1101 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 49.696C4 40.992 5.96267 33.184 9.888 26.272C13.8133 19.2747 19.1467 13.8133 25.888 9.888C32.7147 5.96267 40.2667 4 48.544 4C58.272 4 66.7627 6.34667 74.016 11.04C81.2693 15.7333 86.56 22.3893 89.888 31.008H75.936C73.4613 25.632 69.8773 21.4933 65.184 18.592C60.576 15.6907 55.0293 14.24 48.544 14.24C42.3147 14.24 36.7253 15.6907 31.776 18.592C26.8267 21.4933 22.944 25.632 20.128 31.008C17.312 36.2987 15.904 42.528 15.904 49.696C15.904 56.7787 17.312 63.008 20.128 68.384C22.944 73.6747 26.8267 77.7707 31.776 80.672C36.7253 83.5733 42.3147 85.024 48.544 85.024C55.0293 85.024 60.576 83.616 65.184 80.8C69.8773 77.8987 73.4613 73.76 75.936 68.384H89.888C86.56 76.9173 81.2693 83.5307 74.016 88.224C66.7627 92.832 58.272 95.136 48.544 95.136C40.2667 95.136 32.7147 93.216 25.888 89.376C19.1467 85.4507 13.8133 80.032 9.888 73.12C5.96267 66.208 4 58.4 4 49.696Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+            <path
+              d="M204.123 5.152V94.368H192.475V53.92H147.035V94.368H135.387V5.152H147.035V44.32H192.475V5.152H204.123Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+            <path
+              d="M304.908 74.528H265.996L258.828 94.368H246.54L278.796 5.664H292.236L324.364 94.368H312.076L304.908 74.528ZM301.58 65.056L285.452 20L269.324 65.056H301.58Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+            <path
+              d="M394.358 5.152C404.086 5.152 412.491 6.98667 419.574 10.656C426.742 14.24 432.203 19.4027 435.958 26.144C439.798 32.8853 441.718 40.8213 441.718 49.952C441.718 59.0827 439.798 67.0187 435.958 73.76C432.203 80.416 426.742 85.536 419.574 89.12C412.491 92.6187 404.086 94.368 394.358 94.368H366.582V5.152H394.358ZM394.358 84.768C405.878 84.768 414.667 81.7387 420.726 75.68C426.785 69.536 429.814 60.96 429.814 49.952C429.814 38.8587 426.742 30.1973 420.598 23.968C414.539 17.7387 405.793 14.624 394.358 14.624H378.23V84.768H394.358Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+            <path
+              d="M607.175 31.264C607.175 38.688 604.615 44.8747 599.495 49.824C594.46 54.688 586.738 57.12 576.327 57.12H559.175V94.368H547.527V5.152H576.327C586.396 5.152 594.034 7.584 599.239 12.448C604.53 17.312 607.175 23.584 607.175 31.264ZM576.327 47.52C582.812 47.52 587.591 46.112 590.663 43.296C593.735 40.48 595.271 36.4693 595.271 31.264C595.271 20.256 588.956 14.752 576.327 14.752H559.175V47.52H576.327Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+            <path
+              d="M661.46 14.624V44.448H693.972V54.048H661.46V84.768H697.812V94.368H649.812V5.024H697.812V14.624H661.46Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+            <path
+              d="M798.509 5.152V14.624H774.189V94.368H762.541V14.624H738.093V5.152H798.509Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+            <path
+              d="M850.863 84.256H894.383V94.368H837.039V85.152L880.303 15.264H837.551V5.152H894.127V14.368L850.863 84.256Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+            <path
+              d="M950.065 14.624V44.448H982.577V54.048H950.065V84.768H986.417V94.368H938.417V5.024H986.417V14.624H950.065Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+            <path
+              d="M1079.18 94.368L1057.93 57.888H1043.85V94.368H1032.2V5.152H1061C1067.74 5.152 1073.42 6.304 1078.03 8.608C1082.72 10.912 1086.22 14.0267 1088.52 17.952C1090.83 21.8773 1091.98 26.3573 1091.98 31.392C1091.98 37.536 1090.19 42.9547 1086.6 47.648C1083.1 52.3413 1077.81 55.456 1070.73 56.992L1093.13 94.368H1079.18ZM1043.85 48.544H1061C1067.32 48.544 1072.05 47.008 1075.21 43.936C1078.37 40.7787 1079.95 36.5973 1079.95 31.392C1079.95 26.1013 1078.37 22.0053 1075.21 19.104C1072.14 16.2027 1067.4 14.752 1061 14.752H1043.85V48.544Z"
+              stroke="currentStroke"
+              stroke-width="4"
+            />
+          </svg>
+          <p class="web_dev">WEB DEVELOPER</p>
+        </div>
+        <div class="scroll_arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <img src="./assets/images/headerImg.JPG" alt="" />
+      </header>
+    </section>
+
+    <!-- ////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////// -->
+
+    <!-- section 2 - Skills Page - Title -->
+    <section class="sec2_title">
+      <h2 class="sliding_heading">Technologies</h2>
+      <p>
+        The following are technologies I have a fairly decent understanding of:
+        HTML, CSS, Bootstrap, JavaScript, Git, GitHub, GIMP & Figma.
+      </p>
+    </section>
+
+    <!-- section 2 - Skills Page - Content -->
+    <section class="sec2_content">
+      <!-- Carousel -->
+
+      <div class="slider">
+        <!-- slides -->
+        <div class="slide current"></div>
+
+        <div class="slide"></div>
+
+        <div class="slide"></div>
+
+        <div class="slide"></div>
+
+        <div class="slide"></div>
+
+        <div class="slide"></div>
+
+        <div class="slide"></div>
+
+        <div class="slide"></div>
+      </div>
+
+      <!-- slide buttons -->
+      <div class="buttons">
+        <button id="prev">
+          <svg width="currentWidth" height="currentHeight" viewBox="-3 0 32 32">
+            <path
+              d="M12.318 10.363l-0.742-0.742-6.379 6.379 6.379 6.379 0.742-0.742-5.113-5.113h12.726v-1.049h-12.726z"
+              fill="#currentColor"
+            ></path>
+          </svg>
+        </button>
+        <button id="next">
+          <svg width="currentWidth" height="currentHeight" viewBox="-3 0 32 32">
+            <path
+              d="M13.906 21.637l0.742 0.742 6.378-6.379-6.378-6.379-0.742 0.742 5.112 5.112h-12.727v1.049h12.727z"
+              fill="#currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- ////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////// -->
+
+    <!-- section 3 - Projects - Title -->
+    <section class="sec3_title">
+      <h2 class="sliding_heading">Projects</h2>
+      <p>
+        Projects are deployed on netlify so you can click the link 'take a look'
+        and go straight to the app.
+      </p>
+    </section>
+
+    <!-- section 3 - Projects - Content -->
+    <section class="sec3_content">
+      <div class="project_table">
+        <!-- card 1 -->
+        <div class="project_card">
+          <h3 class="project_card_header">Language Learning App</h3>
+          <img src="./assets/images/project1_image.png" alt="" />
+          <p>
+            Built a flash card language learning app which will randomize the
+            questions every time it is played, so you don't learn in a pattern
+            recognition memory format.
+          </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <a
+            href="https://xhosa-language-learner.netlify.app/"
+            target="_blank"
+            class="projects_btn"
+            >Take a Look</a
+          >
+        </div>
+
+        <!-- card 2 -->
+        <div class="project_card">
+          <h3 class="project_card_header">Intuition Training App</h3>
+          <div class="project_image"></div>
+          <img src="./assets/images/project2_image.png" alt="" />
+          <p>
+            Built a clone app of the original app called ESP Trainer. A game
+            used by the CIA's 'third eye spies' in the 70's to strengthen a
+            subjects intuitive ability.
+          </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <a
+            href="https://intuition-training-app.netlify.app/"
+            target="_blank"
+            class="projects_btn"
+            >Take a Look</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////// -->
+
+    <!-- section 4 - About Me -->
+    <section class="sec4">
+      <h2 class="sliding_heading">About Me</h2>
+      <div class="typedText_container">
+        <p>
+          I'm Chad and I Enjoy: <br />
+          <span class="typed_text"></span><span class="cursor">&nbsp;</span>
+        </p>
+      </div>
+      <p class="about_me_text">
+        Welcome! I am Chad, a web developer in Cape St. Francis, Eastern Cape,
+        South Africa.
+        <br />
+        <br />
+        I am putting as much time and effort as I can into learning as much as I
+        can about JavaSript. Which I know, is a never ending learning endevour.
+        <br />
+        <br />
+        Front-end Development is my strong suit and I would like to start
+        learning a powerful framework such as React or Angular in the near
+        future.
+        <br />
+        <br />
+        I am always eager to learn new things and grow as a developer. Right now
+        I am working on improving my UI/UX design skills and generally writing
+        more code to familiarize myself with the in's and out's of programming.
+      </p>
+      <p class="about_me_text">
+        When I am not coding, I enjoy taking literal long walks on the beach,
+        there is no better way for clearing and resetting your mind, refreshing
+        your creative and problem solving abilities.
+        <br />
+        <br />
+        I also enjoy doing yoga, going for hikes and all round exploring the
+        beautiful, unspoiled nature within our Country. I absolutely love
+        fishing too. (keep it sustainable though)
+        <br />
+        <br />
+        An overnight hike involving/requiring fishing for din-dins, is the
+        easiest way to make me disappear for a weekend.
+      </p>
+    </section>
+
+    <!-- ////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////// -->
+
+    <!-- section 5 - Contact Form -->
+    <section class="sec5">
+      <h2 class="sliding_heading">Pop Me a Message</h2>
+      <p>Get in touch.</p>
+
+      <!-- form starts here -->
+
+      <div class="container">
+        <div class="form">
+          <div class="contact_form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+            <form
+              action="https://formspree.io/f/xqkoozre"
+              method="POST"
+              autocomplete="off"
+              id="my-form"
+            >
+              <h3 class="form_title">Contact Me</h3>
+              <div class="input_container">
+                <input type="text" name="name" class="input" />
+                <label for="">Name</label>
+                <span>Name</span>
+              </div>
+              <div class="input_container">
+                <input
+                  required
+                  type="email"
+                  name="email"
+                  class="input required"
+                />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input_container">
+                <input type="text" name="subject" class="input" />
+                <label for="">Subject</label>
+                <span>Subject</span>
+              </div>
+              <div class="input_container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- status for sent message -->
+      <div class="" id="status"></div>
+    </section>
+
+    <!-- ////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////// -->
+
+    <!-- section 6 - Footer -->
+
+    <section class="sec6">
+      <div class="footer_text">
+        <p>&copy <span class="current_year">1911</span> Chad Petzer</p>
+      </div>
+    </section>
+  </body>
+</html>
