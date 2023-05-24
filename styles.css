@@ -106,7 +106,7 @@ h2::first-letter {
 p {
   text-align: center;
   padding: 0 25px;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.5rem;
@@ -765,7 +765,7 @@ header::before {
   justify-content: center;
   text-align: center;
 
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   padding: 10px 40px;
   margin-top: 10px;
@@ -895,14 +895,14 @@ header::before {
 
 .about_me_text::first-letter {
   color: var(--highlight-color);
-  font-size: 1rem;
+  font-size: 1.6rem;
   transition: 0.77s;
   font-weight: 600;
   letter-spacing: 2px;
 }
 
 .about_me_text {
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.5rem;
   padding-bottom: 2rem;
   max-width: 600px;
