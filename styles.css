@@ -76,7 +76,7 @@ h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   background: none;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   color: var(--secondary-color);
   border-radius: 0px;
@@ -84,6 +84,7 @@ h2 {
   font-weight: 400;
   letter-spacing: 4px;
   transition: 0.77s;
+  text-align: center;
 
   /* slide in animation starting position*/
   transform: translateX(50px);
